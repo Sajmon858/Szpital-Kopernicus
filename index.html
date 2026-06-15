@@ -91,80 +91,138 @@ button[type=submit]:hover, .send-btn:hover { transform:translateY(-2px); }
         <div id="statusAkt"></div>
     </div>
 
-    <!-- SEKCJA ZWŁOK -->
-    <div id="sekcja" class="tab">
-        <form id="sekcjaForm">
-            <label>**Sygnatura sprawy:**</label>
-            <input type="text" id="sekSygnatura">
+   <!-- KMCR -->
+<div id="kmcr" class="tab">
+    <form id="kmcrForm">
 
-            <label>**Data sekcji:**</label>
-            <input type="date" id="sekData">
+        <label>Imię:</label>
+        <input type="text" id="imie">
 
-            <label>**Godzina rozpoczęcia:**</label>
-            <input type="time" id="sekStart">
+        <label>Nazwisko:</label>
+        <input type="text" id="nazwisko">
 
-            <label>**Godzina zakończenia:**</label>
-            <input type="time" id="sekEnd">
+        <label>Wiek / Data urodzenia:</label>
+        <input type="text" id="wiek">
 
-            <label>**Miejsce sekcji:**</label>
-            <input type="text" id="sekMiejsce">
+        <h3>Wywiad - SAMPLE</h3>
 
-            <label>**Patomorfolog:**</label>
-            <input type="text" id="sekPatomorfolog">
+        <label>S:</label>
+        <textarea id="sampleS"></textarea>
 
-            <label>**Asystent:**</label>
-            <input type="text" id="sekAsystent">
+        <label>A:</label>
+        <textarea id="sampleA"></textarea>
 
-            <label>**Imię i nazwisko zmarłego:**</label>
-            <input type="text" id="sekImie">
+        <label>M:</label>
+        <textarea id="sampleM"></textarea>
 
-            <label>**Wiek:**</label>
-            <input type="number" id="sekWiek">
+        <label>P:</label>
+        <textarea id="sampleP"></textarea>
 
-            <label>**Płeć:**</label>
-            <select id="sekPlec">
-                <option value="" disabled selected>Wybierz</option>
-                <option>M</option>
-                <option>K</option>
-            </select>
+        <label>L:</label>
+        <textarea id="sampleL"></textarea>
 
-            <label>**Data zgonu:**</label>
-            <input type="date" id="sekDataZgonu">
+        <label>E:</label>
+        <textarea id="sampleE"></textarea>
 
-            <label>**Miejsce zgonu:**</label>
-            <input type="text" id="sekMiejsceZgonu">
+        <h3>ACVPU</h3>
 
-            <label>**Opis zewnętrzny:**</label>
-            <textarea id="sekOpisZew"></textarea>
+        <label>A:</label>
+        <input type="text" id="acvpuA">
 
-            <label>**Opis wewnętrzny:**</label>
-            <textarea id="sekOpisWe"></textarea>
+        <label>C:</label>
+        <input type="text" id="acvpuC">
 
-            <label>**Badania dodatkowe:**</label>
-            <textarea id="sekBadania"></textarea>
+        <label>V:</label>
+        <input type="text" id="acvpuV">
 
-            <label>**Wnioski końcowe:**</label>
-            <textarea id="sekWnioski"></textarea>
+        <label>P:</label>
+        <input type="text" id="acvpuP">
 
-            <label>**Charakter zgonu:**</label>
-            <select id="sekCharakter">
-                <option value="" disabled selected>Wybierz</option>
-                <option>Naturalny</option>
-                <option>Nienaturalny</option>
-            </select>
+        <label>U:</label>
+        <input type="text" id="acvpuU">
 
-            <label>**Czy wskazane dalsze postępowanie prokuratorskie?**</label>
-            <select id="sekProkuratura">
-                <option value="" disabled selected>Wybierz</option>
-                <option>Tak</option>
-                <option>Nie</option>
-            </select>
+        <label>Miejsce zdarzenia:</label>
+        <input type="text" id="miejsce">
 
-            <button type="submit">Wyślij Sekcję Zwłok</button>
-        </form>
-        <div id="statusSekcja"></div>
-    </div>
+        <h3>Badanie</h3>
 
+        <label>Rytm serca:</label>
+        <input type="text" id="rytm">
+
+        <label>Badanie palpacyjne:</label>
+        <input type="text" id="palpacja">
+
+        <label>Reakcja źrenic na światło:</label>
+        <input type="text" id="zrenice">
+
+        <label>Szerokość źrenic:</label>
+        <input type="text" id="szerokosc">
+
+        <label>Szmer płuca lewego:</label>
+        <input type="text" id="plucoLewe">
+
+        <label>Szmer płuca prawego:</label>
+        <input type="text" id="plucoPrawe">
+
+        <label>Tony serca:</label>
+        <input type="text" id="tony">
+
+        <label>Rozpoznanie:</label>
+        <textarea id="rozpoznanie"></textarea>
+
+        <label>Zapach z ust:</label>
+        <input type="text" id="zapach">
+
+        <label>Wygląd skóry:</label>
+        <input type="text" id="skora">
+
+        <h3>Parametry</h3>
+
+        <label>Tętno:</label>
+        <input type="text" id="tetno">
+
+        <label>Ciśnienie:</label>
+        <input type="text" id="cisnienie">
+
+        <label>Saturacja:</label>
+        <input type="text" id="saturacja">
+
+        <label>Temperatura:</label>
+        <input type="text" id="temperatura">
+
+        <label>Cz. Oddechów:</label>
+        <input type="text" id="oddechy">
+
+        <label>Stężenie Glukozy we Krwi:</label>
+        <input type="text" id="glukoza">
+
+        <h3>Postępowanie</h3>
+
+        <label>Wykonane Czynności:</label>
+        <textarea id="czynnosci"></textarea>
+
+        <label>Podane Leki:</label>
+        <textarea id="leki"></textarea>
+
+        <h3>Zespół</h3>
+
+        <label>Kierownik zespołu:</label>
+        <input type="text" id="kierownik">
+
+        <label>Reszta zespołu:</label>
+        <textarea id="zespol"></textarea>
+
+        <label>Podpis:</label>
+        <input type="text" id="podpis">
+
+        <button type="submit">
+            Wyślij KMCR
+        </button>
+
+    </form>
+
+    <div id="statusKMCR"></div>
+</div>
     <!-- BADANIE PSYCHOLOGICZNE -->
     <div id="psych" class="tab">
         <form id="psychForm">
@@ -319,16 +377,15 @@ function setStatus(id,message,success){const el=document.getElementById(id); el.
         document.getElementById('aktMiejsceInne').style.display='none';
     });
 
-    // SEKCJA ZWŁOK
+    // KMCR
     document.getElementById('sekcjaForm').addEventListener('submit', async e=>{
         e.preventDefault();
         setStatus('statusSekcja','Wysyłam...',null);
-        const fields=['Sygnatura','Data','Start','End','Miejsce','Patomorfolog','Asystent','Imie','Wiek','Plec','DataZgonu','MiejsceZgonu','OpisZew','OpisWe','Badania','Wnioski','Charakter','Prokuratura'];
-        let content = "SEKCJA ZWŁOK — RAPORT PATOLOGICZNY\n";
+        let content = "KMCR - KARTA MEDYCZNYCH CZYNNOŚCI RATUNKOWYCH\n";
         for(const f of fields) content += `${f}: ${document.getElementById('sek'+f).value}\n`;
         const urls = [
-            "https://discord.com/api/webhooks/1436306582064332801/PQFVgvHbL0IXcnssn3n83cjvKSZb9FazHwBuD2w8vCHUGrpZoxWpNcT0bU_-yK5L5qTG",
-            "https://discord.com/api/webhooks/1436320612078452756/nc02wMUyalWlPaHL30ZodCM60XerNo0GFpQ03gcUJO5-2zNb-ppDKSETFc5v5otkEaMW"
+            "https://discord.com/api/webhooks/1516007599919857746/o22XtbrCR7Yd-pjCwMSxbYeDfo_w3JTtduNaTsOCuhvl5E6B_zr3dZDyD6_Qkg6VuQ2Y",
+        
         ];
         let success=true;
         for(const u of urls){ if(!await sendWebhook(u,content)) success=false;}
